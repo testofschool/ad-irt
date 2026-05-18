@@ -1,0 +1,82 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fei et~al.(2025)Fei, Wang, Shi, Dai, Cai, Qian, Ji, He, Zhang, Fei,
+  Fu, Gong, and Qiu]{fei2025liberoplus}
+Senyu Fei, Siyin Wang, Junhao Shi, Zihao Dai, Jikun Cai, Pengfang Qian, Li~Ji,
+  Xinzhe He, Shiduo Zhang, Zhaoye Fei, Jinlan Fu, Jingjing Gong, and Xipeng
+  Qiu.
+\newblock {LIBERO}-plus: In-depth robustness analysis of vision-language-action
+  models.
+\newblock \emph{arXiv preprint arXiv:2510.13626}, 2025.
+
+\bibitem[Fischer(1973)]{fischer1973}
+Gerhard~H. Fischer.
+\newblock The linear logistic test model as an instrument in educational
+  research.
+\newblock \emph{Acta Psychologica}, 37:\penalty0 359--374, 1973.
+
+\bibitem[Kang(2026)]{kang2026efsl}
+Jung~Min Kang.
+\newblock The scaling law of evaluation failure: Why simple averaging collapses
+  under data sparsity and item difficulty gaps, and how item response theory
+  recovers ground truth across domains.
+\newblock \emph{arXiv preprint arXiv:2605.11205}, 2026.
+
+\bibitem[Liu et~al.(2023)Liu, Zhu, Gao, Feng, Liu, Zhu, and
+  Stone]{liu2023libero}
+Bo~Liu, Yifeng Zhu, Chongkai Gao, Yihao Feng, Qiang Liu, Yuke Zhu, and Peter
+  Stone.
+\newblock {LIBERO}: Benchmarking knowledge transfer for lifelong robot
+  learning.
+\newblock In \emph{NeurIPS Datasets and Benchmarks Track}, 2023.
+
+\bibitem[Lord and Novick(1968)]{lord1968}
+Frederic~M. Lord and Melvin~R. Novick.
+\newblock \emph{Statistical Theories of Mental Test Scores}.
+\newblock Addison-Wesley, 1968.
+
+\bibitem[Mees et~al.(2022)Mees, Hermann, Rosete-Beas, and
+  Burgard]{mees2022calvin}
+Oier Mees, Lukas Hermann, Erick Rosete-Beas, and Wolfram Burgard.
+\newblock {CALVIN}: A benchmark for language-conditioned policy learning for
+  long-horizon robot manipulation tasks.
+\newblock \emph{IEEE Robotics and Automation Letters}, 2022.
+
+\bibitem[{MINT-SJTU}(2026)]{evosota2026}
+{MINT-SJTU}.
+\newblock Evo-{SOTA}.io: {VLA} and dexterous manipulation state-of-the-art
+  leaderboard.
+\newblock \url{https://github.com/MINT-SJTU/Evo-SOTA.io}, 2026.
+
+\bibitem[Reckase(2009)]{reckase2009}
+Mark~D. Reckase.
+\newblock \emph{Multidimensional Item Response Theory}.
+\newblock Springer, 2009.
+
+\bibitem[Rodriguez et~al.(2021)Rodriguez, Barrow, Hoyle, Lalor, Jia, and
+  Boyd-Graber]{rodriguez2021}
+Pedro Rodriguez, Joe Barrow, Alexander~Miserlis Hoyle, John~P. Lalor, Robin
+  Jia, and Jordan Boyd-Graber.
+\newblock Evaluation examples are not equally informative: How should that
+  change {NLP} leaderboards?
+\newblock In \emph{Proceedings of ACL-IJCNLP}, pages 4486--4503, 2021.
+
+\bibitem[Veldkamp et~al.(2025)Veldkamp, Grasman, and Molenaar]{veldkamp2025}
+Karel Veldkamp, Raoul Grasman, and Dylan Molenaar.
+\newblock Recommendation with item response theory.
+\newblock \emph{Behaviormetrika}, 52:\penalty0 343--360, 2025.
+
+\bibitem[Yu et~al.(2020)Yu, Quillen, He, Julian, Narayan, Shively, Bellathur,
+  Hausman, Finn, and Levine]{yu2020metaworld}
+Tianhe Yu, Deirdre Quillen, Zhanpeng He, Ryan Julian, Avnish Narayan, Hayden
+  Shively, Adithya Bellathur, Karol Hausman, Chelsea Finn, and Sergey Levine.
+\newblock Meta-{W}orld: A benchmark and evaluation for multi-task and meta
+  reinforcement learning.
+\newblock In \emph{Conference on Robot Learning}, 2020.
+
+\end{thebibliography}

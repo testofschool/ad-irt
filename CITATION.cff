@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AD-IRT: Adaptive Dimensionality Item Response Theory"
+authors:
+  - family-names: "Kang"
+    given-names: "Jung Min"
+    orcid: "https://orcid.org/0009-0007-9599-2792"
+    email: "gangjeongmin23@gmail.com"
+    affiliation: "Independent Researcher, Seoul"
+version: "1.0.0"
+date-released: "2026-05-19"
+license: MIT

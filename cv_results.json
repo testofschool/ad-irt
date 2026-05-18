@@ -1,0 +1,26 @@
+{
+  "Avg": {
+    "rho_mean": 0.7986,
+    "rho_se": 0.029,
+    "mae_mean": 0.1056,
+    "mae_se": 0.0024
+  },
+  "IRT": {
+    "rho_mean": 0.8387,
+    "rho_se": 0.0214,
+    "mae_mean": 0.2053,
+    "mae_se": 0.0056
+  },
+  "MIRT": {
+    "rho_mean": 0.7752,
+    "rho_se": 0.0354,
+    "mae_mean": 0.2874,
+    "mae_se": 0.0063
+  },
+  "AD-IRT": {
+    "rho_mean": 0.8513,
+    "rho_se": 0.0226,
+    "mae_mean": 0.2438,
+    "mae_se": 0.0059
+  }
+}
