@@ -11,7 +11,7 @@
 | MIRT K=2 | 0.775 ± 0.035 | 0.287 ± 0.006 |
 | **AD-IRT** | **0.851 ± 0.023** | 0.244 ± 0.006 |
 
-AD-IRT wins 4/5 folds (Wilcoxon one-sided p = 0.0625). w is tuned on inner 3-fold CV, so **w** sees no test data.
+AD-IRT wins 4/5 folds (Wilcoxon one-sided p = 0.0625). w is tuned on inner 3-fold CV; in this default run the tuning still uses f_u computed from the full mask, so it is not free of test-fold information (see the caveat below).
 
 **Leakage caveat.** The table above is *not* fully leak-free. `src/experiment.py` computes each model's family count f_u (which sets the blend weight α_u) from the **full observation mask** (`model_fc`), including outer-test observations, and uses it both in inner-CV tuning and on the outer test fold. The paper treats reporting breadth as known metadata; under a strict protocol it is a quantity that should come from training data only.
 
@@ -31,7 +31,7 @@ git clone https://github.com/MINT-SJTU/Evo-SOTA.io.git evo_sota
 pip install numpy scipy matplotlib scikit-learn
 python src/parse_evosota.py --evo_dir evo_sota/public/data --out_dir data
 python src/experiment.py
-python scripts/strict_no_leak.py   # leak-free variant (~25 s)
+python scripts/strict_no_leak.py   # leak-free variant
 ```
 
 ## Author
